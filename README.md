@@ -275,8 +275,6 @@ These form the **foundation of character modeling in Blender** and represent wha
 
 ---
 
-Below is a **clean, professional rewrite optimized for a GitHub README**.
-Tone is concise, instructional, and reference-ready, while keeping the depth and structure.
 
 ---
 
@@ -492,3 +490,174 @@ If eyelids blink cleanly, the topology is correct.
 * Chasing perfection in the first pass
 
 ---
+
+
+
+
+---
+
+# Blender Character Body / Torso Modeling
+
+### Practical Shortcut Reference (Block → Structure → Transitions → Refinement)
+
+This document lists the **actual Blender shortcuts and workflows** used by character artists when blocking and structuring a torso.
+It focuses on **body mass, shoulder/hip transitions, and topology flow**, not beginner explanations.
+
+Use it as a **modeling checklist or quick-reference** while working.
+
+---
+
+## 1. Initial Torso Block (Low-Resolution Start)
+
+### Core Shortcuts
+
+| Shortcut                  | Purpose                        |
+| ------------------------- | ------------------------------ |
+| `Shift + A → Mesh → Cube` | Fast, clean torso base         |
+| `Tab`                     | Switch Object / Edit Mode      |
+| `Ctrl + R`                | Add central loop for symmetry  |
+| `X → Vertices/Faces`      | Delete half before mirroring   |
+| Mirror Modifier           | Enforce symmetry               |
+| `Numpad 1 / 3`            | Front & side proportion checks |
+| `G / S`                   | Shape overall body mass        |
+
+### Efficiency Boosters
+
+| Shortcut           | Reason                            |
+| ------------------ | --------------------------------- |
+| `.` (Period)       | Focus view on torso               |
+| `Alt + Z`          | X-Ray for volume judgment         |
+| `Ctrl + A → Scale` | Prevents deformation issues later |
+
+---
+
+## 2. Establishing Torso Curvature (Chest → Back → Hips)
+
+### Actively Used
+
+| Shortcut              | Use                                 |
+| --------------------- | ----------------------------------- |
+| `Ctrl + R` (multiple) | Separate chest, abdomen, hips       |
+| `G G`                 | Adjust curvature without distortion |
+| `R`                   | Tilt loops for spine flow           |
+| `Alt + S`             | Push/pull volume cleanly            |
+
+### Pro-Level Control
+
+| Shortcut        | Why                               |
+| --------------- | --------------------------------- |
+| `O`             | Smooth transitions between masses |
+| `Shift + O`     | Change falloff (Sharp for waist)  |
+| `S + Shift + Z` | Scale width without depth change  |
+
+---
+
+## 3. Torso → Hip Transition (“Undergarment” Mental Model)
+
+### Core Tools
+
+| Shortcut          | Use                          |
+| ----------------- | ---------------------------- |
+| Face Select (`3`) | Work in faces for clean flow |
+| `E`               | Extrude hip base             |
+| `F`               | Fill gaps                    |
+| `Ctrl + B`        | Establish groin edge flow    |
+
+### Cleanup & Precision
+
+| Shortcut            | Reason                   |
+| ------------------- | ------------------------ |
+| `Alt + Click`       | Select hip loops quickly |
+| Loop Tools → Circle | Even groin opening       |
+| `Alt + S`           | Control hip thickness    |
+
+---
+
+## 4. Shoulder Transition (Topology-Critical Area)
+
+### Required
+
+| Shortcut              | Use                                 |
+| --------------------- | ----------------------------------- |
+| `Ctrl + R`            | Shoulder support loops              |
+| `G G`                 | Slide verts without collapsing form |
+| `E`                   | Shoulder extrusion                  |
+| `M → Merge at Center` | Redirect edge flow                  |
+
+### Advanced Fixes
+
+| Shortcut               | Purpose                 |
+| ---------------------- | ----------------------- |
+| `K` (Knife)            | Manual edge redirection |
+| `Ctrl + E → Edge Flow` | Repair distorted loops  |
+| `Alt + S`              | Shoulder roundness      |
+
+**Topology Rule:**
+Shoulder loops must flow **into the arm**, not terminate at the torso.
+
+---
+
+## 5. Hip & Leg Attachment Preparation
+
+### Core
+
+| Shortcut    | Use                     |
+| ----------- | ----------------------- |
+| `X → Faces` | Remove bottom faces     |
+| `E`         | Extrude hip socket      |
+| `Ctrl + B`  | Define groin transition |
+| `Ctrl + R`  | Add transition loops    |
+
+### Speed Tools
+
+| Shortcut  | Why                       |
+| --------- | ------------------------- |
+| `L`       | Select entire hip section |
+| `Alt + S` | Leg socket thickness      |
+| `G G`     | Even loop spacing         |
+
+---
+
+## 6. Cleanup, Flow Fixes & Control
+
+### Essential Cleanup
+
+| Shortcut          | Use                 |
+| ----------------- | ------------------- |
+| `Shift + N`       | Recalculate normals |
+| Merge by Distance | Remove overlaps     |
+| Shade Smooth      | Read form clearly   |
+
+### Light Relaxation
+
+| Shortcut                          | Use                |
+| --------------------------------- | ------------------ |
+| Sculpt Mode → Smooth (very light) | Relax pinching     |
+| Disable Subdivision while editing | See true topology  |
+| `Ctrl + 2`                        | Quick SubD preview |
+
+---
+
+## 7. Volume & Proportion Checks (Daily Habits)
+
+| Shortcut       | Purpose                |
+| -------------- | ---------------------- |
+| `Numpad 5`     | Orthographic accuracy  |
+| MMB Rotate     | Silhouette inspection  |
+| `Alt + Z`      | Internal volume checks |
+| Constant `G G` | Micro-adjustments      |
+
+---
+
+## High-Level Modeling Principles (Not Keybinds)
+
+These save more time than any shortcut:
+
+* Low resolution = faster decisions
+* Fix transitions **before** adding limbs
+* Silhouette > surface detail
+* If SubD looks bad, the base mesh is bad
+* Topology follows **movement**, not anatomy charts
+
+---
+
