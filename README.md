@@ -275,11 +275,220 @@ These form the **foundation of character modeling in Blender** and represent wha
 
 ---
 
-If you want next steps, this can be easily converted into:
+Below is a **clean, professional rewrite optimized for a GitHub README**.
+Tone is concise, instructional, and reference-ready, while keeping the depth and structure.
 
-* A **printable cheat sheet**
-* A **beginner-only shortcut list**
-* A **feature-based map** (eyes, nose, mouth, ears)
-* A **practice checklist**
+---
 
-Just say which one you want.
+# Blender Character Head Modeling
+
+### Master-Level Shortcut Reference (Block → Form → Detail)
+
+This guide documents **practical Blender shortcuts and workflows** used by experienced character modelers when building a stylized or realistic head.
+It focuses on *what professionals actually use* during production—not just what tutorials mention.
+
+Use this as a **reference, checklist, or training aid** while modeling.
+
+---
+
+## 1. Blocking & Early Form (Most Important Stage)
+
+### Core Shortcuts (Muscle Memory)
+
+| Shortcut      | Purpose                     |
+| ------------- | --------------------------- |
+| `Tab`         | Toggle Object / Edit Mode   |
+| `1 / 2 / 3`   | Vertex / Edge / Face select |
+| `A / Alt + A` | Select / Deselect           |
+| `G / R / S`   | Move / Rotate / Scale       |
+| `Ctrl + R`    | Add edge loops              |
+| `Alt + Click` | Select edge/face loops      |
+
+### Workflow Recommendations
+
+* Work in **Orthographic View** (`Numpad 5`) to avoid perspective distortion
+* **Disable Subdivision** during blocking — the form must work unsmoothed
+* Keep topology minimal and readable
+
+### Useful Power Moves
+
+* `Shift + D` — Duplicate before major changes (manual checkpoints)
+* `M → New Collection` — Organize head, eyes, references
+* `.` (Period) — Focus view on selection
+
+---
+
+## 2. Eyes & Eye Sockets (Topology-Critical)
+
+### Essential Tools
+
+| Shortcut            | Use                    |
+| ------------------- | ---------------------- |
+| `I`                 | Inset for eye loops    |
+| Loop Tools → Circle | Even circular topology |
+| `G G`               | Edge/vertex sliding    |
+| `O`                 | Proportional Editing   |
+
+### Advanced Control
+
+* `Alt + S` — Adjust eye depth without breaking loops
+* `Ctrl + E → Edge Flow` — Fix uneven topology
+* `Shift + O` — Change proportional falloff (Sharp / Sphere recommended)
+
+**Rule:**
+If eye loops look bad *before* subdivision, they will look worse *after*.
+
+---
+
+## 3. Nose (Common Failure Point)
+
+### Core
+
+| Shortcut   | Use                      |
+| ---------- | ------------------------ |
+| `E`        | Extrusion                |
+| `I`        | Nostril inset            |
+| `Ctrl + R` | Bridge and support loops |
+| `G G`      | Refine width             |
+
+### Shape Control
+
+* `Alt + S` — Nostril thickness
+* `S + Shift + Z` — Scale without depth distortion
+* Constant side-view checks (`Numpad 3`)
+
+**Tip:** Shape the nose from the **side view first**, not the front.
+
+---
+
+## 4. Mouth & Lips (Expression-Ready Topology)
+
+### Essentials
+
+| Shortcut   | Use                |
+| ---------- | ------------------ |
+| `I`        | Lip loops          |
+| `E`        | Mouth cavity       |
+| `Ctrl + R` | Support loops      |
+| `O`        | Smooth transitions |
+
+### Advanced Techniques
+
+* `Alt + Click` — Select full lip rings
+* `Alt + S` — Control lip volume
+* `Ctrl + B` (very small) — Stylized lip crease
+
+**Animation Guideline:**
+Minimum **4–5 edge loops** around the mouth for clean deformation.
+
+---
+
+## 5. Cheeks, Jaw & Head Volume
+
+### Core
+
+| Shortcut  | Use               |
+| --------- | ----------------- |
+| `Alt + S` | Volume shaping    |
+| `O`       | Soft transitions  |
+| `R`       | Rotate skull mass |
+
+### High-Level Adjustments
+
+* Select back of head → `Alt + S` to fix flat skulls
+* Light Sculpt Mode → Smooth **only** for final relaxation
+
+**Rule:** Faces are volumetric, not flat planes.
+
+---
+
+## 6. Ears (Simplified, Clean Topology)
+
+### Essentials
+
+| Shortcut            | Use             |
+| ------------------- | --------------- |
+| `E`                 | Extrusion       |
+| `Ctrl + R`          | Structure       |
+| Loop Tools → Circle | Clean base      |
+| Smooth Tool         | Stylized finish |
+
+### Efficiency Tips
+
+* `L` — Select entire ear
+* `Alt + S` — Thickness
+* `Ctrl + B` — Inner ridge definition
+
+**Note:** Stylized ears should remain simple and readable.
+
+---
+
+## 7. Neck & Head Transitions
+
+### Core
+
+| Shortcut               | Use            |
+| ---------------------- | -------------- |
+| `E`                    | Neck extrusion |
+| Loop Tools → Circle    | Clean base     |
+| `Alt + S`              | Thickness      |
+| `Ctrl + F → Grid Fill` | Clean topology |
+
+### Cleanup
+
+* `V` — Rip to resolve congestion
+* `Shift + N` — Recalculate normals
+
+---
+
+## 8. Eyelids & Shape Keys (Pro-Level Check)
+
+### Essentials
+
+| Tool       | Use           |
+| ---------- | ------------- |
+| Shape Keys | Blink testing |
+| `S + Z`    | Close eyelids |
+| `O`        | Smooth motion |
+
+### Rigging Prep
+
+* `Alt + S` — Eyelid thickness
+* `Ctrl + R` — Extra deformation loops
+
+**Golden Rule:**
+If eyelids blink cleanly, the topology is correct.
+
+---
+
+## 9. Cleanup & Final Polish
+
+### Core Cleanup
+
+* Mesh → Clean Up → **Merge by Distance**
+* `Shift + N` — Fix normals
+* Smooth Tool — Relax pinching
+
+### Final Checks
+
+* Overlay → **Face Orientation**
+* Shade Smooth + Auto Smooth
+* Apply Mirror Modifier **last**
+
+---
+
+## Modeling Mindset (Most Important)
+
+### Do
+
+* Block **multiple heads**, not one perfect model
+* Work **without subdivision first**
+* Constantly check **front, side, and 3/4 views**
+
+### Avoid
+
+* Adding loops too early
+* Sculpting instead of modeling
+* Chasing perfection in the first pass
+
+---
