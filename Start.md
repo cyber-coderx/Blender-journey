@@ -1,5 +1,5 @@
 Below is a **complete, structured extraction of every shortcut that is explicitly used or clearly implied in the transcript**, followed by **recommended better / faster / more professional shortcuts and workflow upgrades** that experienced Blender artists actually rely on.
-
+k
 I’m not holding back — this is **beginner → advanced → production-level**.
 
 ---
