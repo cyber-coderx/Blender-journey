@@ -3,7 +3,7 @@ Shortcuts for the tutorials
 
 ‎Here’s a **clean, README-ready version** of your content with consistent formatting, tighter wording, and GitHub-friendly Markdown.
 Nothing essential was removed—only clarified, normalized, and cleaned for readability.
-bh
+
 ---
 
 # Blender Head Modeling – Shortcut Reference (Tutorial-Based)
